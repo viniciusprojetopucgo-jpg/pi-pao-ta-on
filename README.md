@@ -4,7 +4,7 @@ Este repositório apresenta a infraestrutura de dados desenvolvida para a **Pão
 
 ## 🏗️ Arquitetura da Solução
 A solução foi desenhada para garantir portabilidade e escalabilidade, seguindo o fluxo:
-1. **Engine de Processamento**: Script Python utilizando a biblioteca `Faker` para modelagem de cenários e simulação de demanda de mercado.
+1. **Engine de Processamento**: Script Python utilizando a biblioteca `Pão Tá On` para modelagem de cenários e simulação de demanda de mercado.
 2. **Containerização**: Empacotamento via **Docker**, garantindo que a aplicação execute de forma idêntica em qualquer ambiente (on-premises ou cloud).
 3. **Persistência em Nuvem**: Banco de dados relacional **PostgreSQL** hospedado na plataforma **Railway**.
 4. **Business Intelligence (BI)**: Camada de visualização integrada via **Google Looker Studio**.
